@@ -1,10 +1,10 @@
 package etsy;
 
-import java.util.ArrayList;
-
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
+import java.util.ArrayList;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Listing extends EtsyService {
